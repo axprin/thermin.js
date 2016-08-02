@@ -6,11 +6,13 @@ Thermin.js is an easily extendable and simple-to-incorporate jQuery plugin for a
 
 Therminjs is really easy to implement, simply include the `thermin.js` flie after jQurey in your document. Select any jQuery object and call `.Thermin()` on it. There are a few options you can alter when initializing, but the defaults are pretty standard. 
 
-```$('#anything').Thermin({
+```
+$('#anything').Thermin({
 	'oscType': 'sine', // or 'square', 'sawtooth' or 'triangle'
 	'minFreq': 40 // min frequency
 	'maxFreq': 2500 // max frequency
-})```
+})
+```
 
 ## Contributing
 
