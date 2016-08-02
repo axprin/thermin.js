@@ -1,7 +1,25 @@
+* {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h2 {
+	margin: 20px auto;
+	width: 225px;
+}
+
 #select-wrapper {
-	width: 162px;
+	width: 170px;
 	margin: 0 auto;
 }
+
+#select-wrapper > * {
+	padding: 10px 0px;
+}
+
+input[type="range"] {
+    width: 166px;
+}
+
 .thermin-demo {
 	border: 1px solid black;
 	width: 400px;

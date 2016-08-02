@@ -8,16 +8,20 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src='thermin.js'></script>
 	<script type="text/javascript" src='demo.js'></script>
-
-	<div id="select-wrapper">
-		<label for="osc-type">Wave Type:</label>
-		<select id="osc-type" name="osc-type">
-			<option value="sine">Sine</option>
-			<option value="square">Square</option>
-			<option value="sawtooth">Sawtooth</option>
-			<option value="triangle">Triangle</option>
-		</select>
-	</div>
+	<h2>Thermin.js - Demo</h2>
+	<form id="select-wrapper">
+		<label for="minFreqInputName">Min Frequency: </label><output name="minFreqOutputName" id="minFreqOutputId">40</output>
+		<input type="range" name="minFreqInputName" id="minFreqInputId" value="40" min="1" max="1000" oninput="minFreqOutputId.value = minFreqInputId.value"><br>
+    	<label for="maxFreqInputName">Max Frequency: </label><output name="maxFreqOutputName" id="maxFreqOutputId">2500</output>
+    	<input type="range" name="maxFreqInputName" id="maxFreqInputId" value="2500" min="1000" max="4000" oninput="maxFreqOutputId.value = maxFreqInputId.value">
+			<label for="osc-type">Wave Type:</label>
+			<select id="osc-type" name="osc-type">
+				<option value="sine">Sine</option>
+				<option value="square">Square</option>
+				<option value="sawtooth">Sawtooth</option>
+				<option value="triangle">Triangle</option>
+			</select>
+	</form>
 	<div class="thermin-demo"></div>
 </body>
 </html>
