@@ -17,7 +17,7 @@
 			maxFreq: 2500,
 			minFreq: 40,
 			oscType: 'sine'
-        }, options);
+		}, options);
 
 		/*******
 		METHODS: 
