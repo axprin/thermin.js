@@ -6,9 +6,9 @@
 
 		// some variable definitions
 		var x, y;
-        var height = this.height();
-        var width = this.width();
-        var pitch, volume;
+		var height = this.height();
+		var width = this.width();
+		var pitch, volume;
 		var audioCtx, oscillator, gainNode;
 		var isPlaying = false;
 
@@ -19,7 +19,7 @@
 			oscType: 'sine'
         }, options);
 
-        /*******
+		/*******
 		METHODS: 
 		*******/
 
