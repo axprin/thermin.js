@@ -2,7 +2,7 @@
 
 [Demo](https://cdn.rawgit.com/axprin/thermin.js/master/index.html)
 
-Thermin.js is an easily extendable and simple-to-incorporate jQuery plugin for a [theremin](https://en.wikipedia.org/wiki/Theremin). It is controlled by mouse position, where the x-axis is pitch and the y-axis is volume. 
+Thermin.js is an easily extendable and simple-to-incorporate jQuery plugin for a [theremin](https://en.wikipedia.org/wiki/Theremin). It is controlled by mouse position of a selected element, where the x-axis is pitch and the y-axis is volume. 
 
 ## Usage
 
