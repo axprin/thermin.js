@@ -6,7 +6,7 @@ Thermin.js is an easily extendable and simple-to-incorporate jQuery plugin for a
 
 ## Usage
 
-Therminjs is really easy to implement, simply include the `thermin.js` flie after jQurey in your document. Select any jQuery object and call `.Thermin()` on it. There are a few options you can alter when initializing, but the defaults are pretty standard. 
+Thermin.js is really easy to implement, simply include the `thermin.js` flie after jQurey in your document. Select any jQuery object and call `.Thermin()` on it. There are a few options you can alter when initializing, but the defaults are pretty standard. 
 
 ```
 $('#anything').Thermin({
