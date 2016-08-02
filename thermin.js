@@ -72,7 +72,7 @@
 		// event to handle mouse move - both pitch change and volume change:
 		this.mousemove(function(e){
 			x = e.pageX - this.offsetLeft;
-        	y = e.pageY - this.offsetTop;
+			y = e.pageY - this.offsetTop;
 			pitch = TH.getPitch(x);
 			volume = TH.getVolume(y);
 			TH.changeSound(pitch, volume);
