@@ -36,7 +36,7 @@
 		// lets user know if theremin is in action
 		TH.isPlaying = function() {
 			return isPlaying;
-		}
+		};
 
 		// closes audio object and stops sound
 		TH.stopSound = function() {
