@@ -25,4 +25,5 @@ input[type="range"] {
 	width: 90%;
 	height: 300px;
 	margin: 40px auto;
+	cursor:crosshair;
 }
