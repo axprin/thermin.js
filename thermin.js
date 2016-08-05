@@ -5,11 +5,12 @@
 		}
 		
 		// sets default options
-		options = $.extend({
+		options = {
+			id: options.id,
 			maxFreq: 2500,
 			minFreq: 40,
 			oscType: 'sine'
-		}, options);
+		};
 
 		// some variable definitions
 		var x, y;
