@@ -1,10 +1,7 @@
 $( document ).ready(function() {
 
 	// THERMIN-iZE!
-	// $('.thermin-demo').Thermin();
-	Thermin({
-		'id':'thermin'
-	});
+	$('.thermin-demo').Thermin();
 
 	// handle change of form inputs
 	$('form#select-wrapper').change(function(e){
@@ -16,13 +13,7 @@ $( document ).ready(function() {
 		var minFreq = $("#minFreqInputId").val();
 		var maxFreq = $("#maxFreqInputId").val();
 
-		// $('.thermin-demo').Thermin({
-		// 	"oscType": oscType,
-		// 	"minFreq": minFreq,
-		// 	"maxFreq": maxFreq
-		// });
-		Thermin({
-			"id": "thermin",
+		$('.thermin-demo').Thermin({
 			"oscType": oscType,
 			"minFreq": minFreq,
 			"maxFreq": maxFreq
