@@ -22,7 +22,7 @@ input[type="range"] {
 
 .thermin-demo {
 	border: 1px solid black;
-	width: 400px;
+	width: 90%;
 	height: 300px;
 	margin: 40px auto;
 }
