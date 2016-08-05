@@ -1,7 +1,7 @@
 (function () {
 	Thermin = function(options) {
 		if (!options.id) {
-			throw "Thermin WILL NOT PLAY FOR YOU!";
+			throw "Thermin needs to be instantiated with an id!!";
 		}
 		
 		// sets default options
